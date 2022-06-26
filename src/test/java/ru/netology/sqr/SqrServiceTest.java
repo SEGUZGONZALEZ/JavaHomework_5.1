@@ -18,9 +18,9 @@ public class SqrServiceTest {
     public void sqrRootSeekerBetweenRange(int underRange, int upperRange, int expected) {
         SqrService service = new SqrService();
 
-              int actual = service.calculate(underRange, upperRange);
+        int actual = service.calculate(underRange, upperRange);
 
-              Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
 
     }
 }
